@@ -9,7 +9,7 @@ function Search({ search, onSearchChange }) {
         placeholder="Search..."
         autoComplete="off"
         value={search}
-        onChange={e => onSearchChange(e.target.value)}
+        onChange={(e) => onSearchChange(e.target.value)}
       />
     </nav>
   );
